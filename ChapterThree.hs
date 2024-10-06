@@ -4,6 +4,7 @@ import ChapterOne
 import ChapterTwo
 import Data.Complex
 
+
 {-
 Write a program that performs our little marble experiment. The program should allow the user to enter a Boolean matrix that describes the
 ways that marbles move. Make sure that the matrix follows our requirement. The user
