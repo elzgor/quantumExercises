@@ -30,11 +30,11 @@ vectAdj :: [Complex Double] -> [Complex Double]
 vectAdj [] = []
 vectAdj xs = (conjComplex (head (xs))) : vectAdj (tail (xs))
 
--- Mean and variance of the operator acting on the ket. Doesn't work lol
+-- Mean and variance of the operator acting on the ket. IN PROGRESS
 observable :: [[Complex Double]] -> [Complex Double] -> Complex Double
 observable mat ket = probTwoKets (matTrans (matMult mat [ket]) !! 0) ket
 
--- enter observable and state vector, return list of eigenvalues of the observable, oh nvm lol
+-- enter observable and state vector, return list of eigenvalues of the observable?
 
 
 -- input a number of time steps n
